@@ -19,3 +19,9 @@ Motion design can effectively guide the user’s attention in ways that both inf
 ### Consistent choreography
 1. Transitioning elements should behave in a coordinated manner. The paths elements travel along should make sense and be orderly. Haphazard motion is distracting.
 2. When transitioning elements are coordinated, it aids user understanding of the app.
+3. Best Practices
+  1. Avoid linear spatial paths, except when movement is constrained to an axis or moving towards/away from a point in concert with other elements.
+  2. Make the direction elements travel cohesively across the transition. Avoid conflicting movements and overlapping paths.
+  3.At which depths do the elements move and why?
+  4. If all moving elements traced their paths on screen, would it look beautiful and organized? Does it create a clear picture of where to look?
+  5. Reinforce spatial relationships between elements with consistent incoming and outgoing motions. 
