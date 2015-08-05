@@ -1,3 +1,5 @@
+## Environment
+
 ### 3D world
 1. The material environment is a 3D space, which means all objects have x, y, and z dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the positive z-axis extending towards the viewer. Every sheet of material occupies a single position along the z-axis and has a standard 1dp thickness.
 2. On the web, the z-axis is used for layering and not for perspective. The 3D world is emulated by manipulating the y-axis.
