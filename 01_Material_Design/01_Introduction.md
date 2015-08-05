@@ -1,3 +1,5 @@
+## Introduction
+
 ### Goals
 1. Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.
 2. Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.
