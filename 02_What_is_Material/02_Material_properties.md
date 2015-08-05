@@ -16,7 +16,6 @@ Material has certain immutable characteristics and inherent behaviors. Understan
 3. Material never bends or folds.
 4. Sheets of material can join together to become a single sheet of material.
 5. When split, material can heal. For example, if you remove a portion of material from a sheet of material, the sheet of material will become a whole sheet again.
-6. 
 
 ### Movement of Material
 1. Material can be spontaneously generated or destroyed anywhere in the environment.
