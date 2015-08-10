@@ -69,9 +69,9 @@ Grid lists are an alternative to standard list views. Grid lists are distinct fr
     3. Default font size: 16sp
     4. Grid list padding: 4dp or 1dp
     5. The secondary action can be flush right or flush left within the footer or header.
-  3. Two-line grid list
-    1. Text only
-      1. Height: 68dp
-      2. Text padding: 16dp
-      3. Default font size for each line: 16sp/12sp or 14sp/14sp
-      4. Grid list padding: 4dp or 1dp
+4. Two-line grid list
+  1. Text only
+    1. Height: 68dp
+    2. Text padding: 16dp
+    3. Default font size for each line: 16sp/12sp or 14sp/14sp
+    4. Grid list padding: 4dp or 1dp
