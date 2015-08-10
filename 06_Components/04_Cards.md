@@ -46,4 +46,146 @@
   4. Supporting text
   5. Actions
 2. These content blocks can be combined to create visual hierarchy within a card.
+3. Content block types
+  1. Rich media
+    1. 16:9 or 1:1 aspect ratio (recommended)
+  2. Actions
+    1. Padding: 8dp  
+  3. Primary title/text
+    1. Title: 24sp or 14sp
+    2. Subtitle: 14sp
+    3. Left and right padding: 16dp
+    4. Top padding: 16dp or 24dp (when a large primary title is present)
+    5. Bottom padding: 16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)
+  4. Supporting text
+    1. Supporting text: 14sp
+    2. Left and right padding: 16dp
+    3. Top padding: 16dp
+    4. Bottom padding: 24dp (16dp if there are additional actions or text below)
+    5. Bullet points (but not their text), images, and buttons may extend outside of the 16dp padding.
+  5. Card margins on mobile
+    1. Padding from edge of screen to card: 8dp
+    2. Space between cards: 8dp
+  6. Elevation
+    1. Card resting elevation: 2dp
+    2. Card raised elevation: 8dp
+4. Content block combinations
+  1. The following examples illustrate some possible combinations of content blocks.
+    1. Example 1
+      1. Media area - 16:9 ratio
+      3. Supporting text
+        1. Text: 14sp
+        2. Padding: 16dp
+    2. Example 2
+      1. Avatar, Title, and Subtitle area - 72dp
+      2. Media area - 16:9 ratio
+      3. Supporting text
+        1. Text: 14sp
+        2. Padding: 16dp
+      4. Actions - Padding: 8dp
+    3. Example 3
+      1. Avatar, Title, and Subtitle area - 72dp
+      2. Media area - 16:9 ratio
+      3. Actions
+        1. Padding: 8dp
+        2. Padding between actions: 4dp
+    4. Example 4
+      1. Media area - 16:9 ratio
+      2. Primary text
+        1. Text: 24sp
+        2. Top padding: 24dp
+        3. Bottom padding: 16dp
+      3. Subtext
+        1. Text: 14sp
+        2. Bottom padding: 16dp
+      4. Actions - Padding: 8dp
+    5. Example 5
+      1. Media area - 16:9 ratio
+      2. Primary text
+        1. Text: 24sp
+        2. Top padding: 24dp
+        3. Bottom padding: 16dp
+      3. Subtext
+        1. Text: 14sp
+        2. Bottom padding: 16dp
+      4. Actions - Padding: 8dp
+      5. Expanded supporting text
+        1. Text: 14sp
+        2. Top padding: 16dp
+        3. Bottom padding: 24dp
+    6. Example 6
+      1. Primary text
+        1. Text: 24sp
+        2. Top padding: 24dp
+        3. Bottom padding: 16dp
+      2. Subtext
+        1. Text: 14sp
+        2. Bottom padding: 16dp
+      3. Supporting text
+        1. Text: 14sp
+        2. Top padding: 16dp
+        3. Bottom padding: 16dp
+      4. Actions - Padding: 8dp
+    7. Example 7
+      1. Media area - 16:9 ratio
+      2. Actions - Padding: 8dp
+    8. Example 8
+      1. Media area - 1:1 ratio
+      2. Primary text
+        1. Text: 24sp
+        2. Top padding: 24dp
+      3. Subtext
+        1. Text: 14sp
+        2. Bottom padding: 16dp
+      4. Actions - Padding: 8dp 
+    9. Example 9
+      1. Media area - 1:1 ratio
+      2. Primary text - Text: 24sp
+      3. Actions - Padding: 8dp
+    10. Example 10
+      1. Media area
+        1. 1x
+        2. Top padding: 16dp
+      2. Primary text
+        1. Text: 24sp
+        2. Top padding: 24dp
+      3. Subtext - Text: 14sp
+      4. Actions - Padding: 8dp 
+    11. Example 11
+      1. Media area
+        1. 3/8x
+        2. Top padding: 16dp
+      2. Primary text
+        1. Text: 24sp
+        2. Top padding: 24dp
+      3. Subtext - Text: 14sp
+      4. Actions - Padding: 8dp
+    12. Example 12
+      1. Media area
+        1. 2x
+        2. Top padding: 16dp
+      2. Primary text
+        1. Text: 24sp
+        2. Top padding: 24dp
+      3. Subtext - Text: 14sp
+      4. Actions - Padding: 8dp 
+    13. Example 13
+      1. Media area
+        1. 3x
+        2. Padding: 16dp
+      2. Actions - All around padding: 8dp + 16dp 
+  
 
+### Behavior
+1. Supported gestures
+  1. The swipe gesture is supported on a per-card basis. Card gestures should be consistently implemented within a card collection.
+  2. Limit swipe gestures within a view so that they don’t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel so that only a single action occurs when the card is swiped.
+  3. The pick-up-and-move gesture is also supported. However, consider whether it is important for the user to be able to sort cards within the collection, or if the content would be better organized using programmatic filtering or sorting.
+2. Card collection filtering and sorting
+  1. Card collections can be programmatically sorted or filtered by date, file size, alphabetical order, or other parameters. The first item in the collection is positioned at the top left of the collection, and the order proceeds left to right and top to bottom.
+3. Scrolling
+  1. Card collections only scroll vertically. Card content that exceeds the maximum card height is truncated and does not scroll.
+  2. Cards with truncated content can be expanded, which means the card height may exceed the maximum height of the view. In this case, the card will scroll with the card collection. 
+4. Card focus
+  1. When traversing through focus points on a card, all focusable elements are visited before moving to the next card.
+  2. For interfaces that depend on focus traversal for navigation (D-pad and keyboard), cards should have either a primary action or open a new view containing primary and supplemental actions.
