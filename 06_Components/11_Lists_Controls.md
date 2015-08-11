@@ -48,3 +48,7 @@ A menu is a special type of list. In menus, use controls that are appropriate fo
   1. Type: secondary info
   2. Not a separate target.
   3. Menus only. Inline information is a small snippet of text related to the line title that can provide information or a tip, like a keyboard shortcut. It cannot be truncated.
+3. Nested menu indicator
+  1. Type: primary action
+  2. Not a separate target.
+  3. Menus only. The glyph indicates that a secondary menu will fly out upon hover, focus, and/or selection.
