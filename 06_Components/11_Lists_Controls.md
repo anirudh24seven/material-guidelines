@@ -39,3 +39,12 @@ List controls are icons that appear to the left or right of the list text. They 
 ### Types of menu controls
 
 A menu is a special type of list. In menus, use controls that are appropriate for dropdown menus, overflow menus, and so on. Don’t use these controls in regular lists. Use the regular list controls instead.
+
+1. Check
+  1. Type: state
+  2. Not a separate target.
+  3. Menus only. Indicates that the list item has been selected. The selection is done through a different control.
+2. Inline information
+  1. Type: secondary info
+  2. Not a separate target.
+  3. Menus only. Inline information is a small snippet of text related to the line title that can provide information or a tip, like a keyboard shortcut. It cannot be truncated.
