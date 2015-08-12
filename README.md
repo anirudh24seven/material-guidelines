@@ -10,8 +10,8 @@
 ## Useful for
 1. Designers interested in Material Design
 2. Android developers wanting to design their apps better
-3. Teams working on Android projects to share & argue about the guidelines
-4. Proving it to others if they are wrong about Material Design :P
+3. Teams working on Android projects to share & discuss about Material Design
+4. Arguing with people over the internet if they are wrong about Material Design :P
 
 ## Text-only
 1. Easier to quantify the volume of information
@@ -21,6 +21,10 @@
 1. Easier to refer to & share a particular point
 2. Easier to remember if you want to memorize a particular section
 
-## Usage
+## Notes
 1. This documentation is directly based on Google's Material Design Guidelines
-2. So feel free to use this documentation however you would like (convert it other formats, make a book, etc)
+2. Images & Videos have been omitted
+3. This is not a complete reference. You can use this as a companion along with the actual guidelines.
+
+## Usage
+Feel free to use this documentation however you would like (convert it other formats, make a book, etc)
