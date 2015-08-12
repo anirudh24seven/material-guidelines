@@ -52,3 +52,23 @@ Application settings let users indicate their preferences for how an app or serv
     3. Technical jargon, unless it's widely understood by your target audience
 2. Secondary text
   1. Secondary text is optional. If the label is sufficient on its own, don't add a secondary text description.
+  2. Switch or checkbox settings
+    1. Settings that require precise descriptions may add a single-line description underneath the settings label.
+    2. Descriptions should:
+      1. Convey what happens when a setting is enabled
+      2. Use words that don't already appear in the label
+  3. Settings that require longer explanations may add a description on a second screen.
+  4. All other settings
+    1. For non-switch settings, secondary text should show the current status of a setting only.
+  5. Setting defaults
+    1. The initial value for each setting should:
+      1. Represent the default most users would choose
+      2. Be neutral and pose little risk
+      3. Use less battery or mobile data
+      4. Only interrupt when important
+
+### Writing guidelines
+1. Be direct and understandable.
+2. Indicate status with specific details placed within the appropriate context.
+3. Use keywords that describe settings accurately.
+4. Use familiar acronyms when there aren’t better alternatives. Convey how and why an unfamiliar setting exists.
