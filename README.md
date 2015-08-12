@@ -1,4 +1,7 @@
 # README
+This is a text-only, numbered documenation of the [Material Design Guidelines](http://www.google.com/design/spec/material-design/introduction.html)
+
+## Properties
 1. Text-only
 2. Numbered lists everywhere
 
